@@ -1,5 +1,7 @@
 # mmo_wow
-client:unity server:trinitycore
+client:unity 
+
+server:trinitycore
 
 https://github.com/bmjoy/mmo_wow
 
