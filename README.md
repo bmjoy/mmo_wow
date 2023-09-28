@@ -41,6 +41,12 @@ https://github.com/lasoto/EDWoWGMClient.git
 
 https://github.com/trinitycore/trinitycore/tree/3.3.5
 
+# How to Run
+
+account: test
+
+password: test
+
 
 
 
