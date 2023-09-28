@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Asio">
+      <UniqueIdentifier>{1121e1e8-505e-4877-9f61-6a3b0c277861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{4e6ac5c3-1f72-48c4-87ad-0747d0a4360e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{5ae132b4-0451-47bc-ac15-ffb64bb00ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{e7395d1f-43e4-4d94-ae7a-0a5c1f4eaf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{7f54a8f7-c645-4eb5-a0bd-7cc6c7210ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Utilities">
+      <UniqueIdentifier>{15192a17-4079-4ad5-89bb-2485a37d2b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{e3e6729f-a7c0-48e0-8bfc-feb2fefc5342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{f6880386-5d1a-44a6-af6e-8008d1300768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{7a36ad10-f9f6-41f6-a0e2-3370dfa8b413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{f358f05f-2457-4f00-a5c8-7c9c32ca0855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Authentication">
+      <UniqueIdentifier>{88f6cf36-910e-447a-9a63-0715d3852498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPLocation">
+      <UniqueIdentifier>{c6df7084-31fd-446f-bef1-e2047c884fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{6894e331-ec01-466a-a0c4-9fc9e93c74e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asio\AsioHacksFwd.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\DeadlineTimer.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\IoContext.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\IpAddress.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\IpNetwork.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\Resolver.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Asio\Strand.h">
+      <Filter>Asio</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\Appender.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\AppenderConsole.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\AppenderFile.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\Log.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\LogCommon.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\Logger.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\LogMessage.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\LogOperation.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Containers.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\IteratorPair.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Optional.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SmartEnum.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\StringConvert.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\StringFormat.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CompilerDefs.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Utilities\Types.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\Config.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Duration.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\FlatSet.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers\Utilities\MapUtils.h">
+      <Filter>Containers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Random.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugging\Errors.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SFMTRand.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\LockedQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\MPSCQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\ProcessPriority.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\ProducerConsumerQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading\ThreadPool.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\StartProcess.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\BuiltInConfig.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="GitRevision.h" />
+    <ClInclude Include="revision_data.h" />
+    <ClInclude Include="Hacks\boost_1_73_process_windows_nopch.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\boost_1_74_fibonacci_heap.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\Authentication\AuthCrypt.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\Authentication\AuthDefines.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\Authentication\SRP6.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\AES.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\ARC4.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\Argon2.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\BigNumber.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\CryptoConstants.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\CryptoGenerics.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\CryptoHash.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\CryptoRandom.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\HMAC.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\OpenSSLCrypto.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\SessionKeyGenerator.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography\TOTP.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="IPLocation\IPLocation.h">
+      <Filter>IPLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\ServiceWin32.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Banner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logging\Appender.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\AppenderConsole.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\AppenderFile.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\enuminfo_AppenderConsole.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\enuminfo_LogCommon.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\Log.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\Logger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\LogMessage.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\LogOperation.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Util.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Configuration\Config.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Random.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugging\Errors.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\SFMTRand.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading\ProcessPriority.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\StartProcess.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration\BuiltInConfig.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GitRevision.cpp" />
+    <ClCompile Include="Cryptography\Authentication\AuthCrypt.cpp">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\Authentication\SRP6.cpp">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\AES.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\ARC4.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\Argon2.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\BigNumber.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\CryptoRandom.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\OpenSSLCrypto.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography\TOTP.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="IPLocation\IPLocation.cpp">
+      <Filter>IPLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\ServiceWin32.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Banner.cpp" />
+  </ItemGroup>
+</Project>
